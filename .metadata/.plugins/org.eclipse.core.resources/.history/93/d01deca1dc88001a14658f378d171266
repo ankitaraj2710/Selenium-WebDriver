@@ -1,0 +1,20 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//selenium code
+		//first we need to create an object for chrome webdriver
+		// second we need to implement methods of webdriver to make it run
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\User\\Desktop\\geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://google.com");
+		System.out.println(driver.getTitle());
+		
+
+	}
+
+}

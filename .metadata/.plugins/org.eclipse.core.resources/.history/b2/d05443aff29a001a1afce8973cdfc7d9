@@ -1,0 +1,19 @@
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class TestCases {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		ExcelData E = new ExcelData();
+		ArrayList<String> testData = E.addData("Selenium");
+		int i=0;
+		int count = testData.get(i).length();
+		
+		for(i=0;i<count;i++) {
+		System.out.println(testData.get(i));
+		
+	}
+
+	}
+}

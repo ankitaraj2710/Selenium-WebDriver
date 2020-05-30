@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testRunner (1)" project="e2eprogram" tests="4" started="4" failures="0" errors="2" ignored="2">
+  <testsuite name="cucumber.testRunner" time="0.023">
+    <testsuite name="Feature: Application Login" time="0.023">
+      <testsuite name="Scenario: Home Page Default Login" time="0.011" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at stepDefintions.stepdefinition.navigate_to_website_url(stepdefinition.java:28)&#13;
+	at ✽.Given Navigate to website "http://qaclickacademy.com" url(login.feature:6)&#13;
+&#13;
+</error>
+        <testcase name="Given Initialize the brower" classname="Scenario: Home Page Default Login" time="0.006"/>
+        <testcase name="Given Navigate to website &quot;http://qaclickacademy.com&quot; url" classname="Scenario: Home Page Default Login" time="0.005">
+          <error>java.lang.NullPointerException&#13;
+	at stepDefintions.stepdefinition.navigate_to_website_url(stepdefinition.java:28)&#13;
+	at ✽.Given Navigate to website "http://qaclickacademy.com" url(login.feature:6)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="And click on login button to navigate to login page" classname="Scenario: Home Page Default Login" time="0.001" ignored="true"/>
+        <testcase name="Then enter &quot;userName&quot; and &quot;passWord&quot; to login Successfully" classname="Scenario: Home Page Default Login" time="0.008" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

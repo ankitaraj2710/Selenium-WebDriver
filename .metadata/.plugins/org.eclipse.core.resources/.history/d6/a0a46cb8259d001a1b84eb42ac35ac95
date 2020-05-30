@@ -1,0 +1,9 @@
+14:26:10.597 [main] DEBUG alpha.Demo - I am Debugging
+14:26:10.598 [main] INFO  alpha.Demo - Object id present
+14:26:10.598 [main] ERROR alpha.Demo - Object is not present
+14:26:10.598 [main] FATAL alpha.Demo - This is fatal
+14:29:24.220 [main] DEBUG alpha.Demo - I am Debugging
+14:29:24.222 [main] INFO  alpha.Demo - Object id present
+14:29:24.222 [main] ERROR alpha.Demo - Object is not present
+14:29:24.222 [main] FATAL alpha.Demo - This is fatal
+14:41:24.010 [main] DEBUG beta.Demo1 - Button is clicked

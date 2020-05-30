@@ -1,0 +1,35 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//selenium code
+		//first we need to create an object for chrome webdriver
+		// second we need to implement methods of webdriver to make it run
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Desktop\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		//driver.get("http://google.com");
+		//System.out.println(driver.getTitle());
+		
+		//to print current url with this we can validate the url on the browser means if its the same url or not??
+		//System.out.println(driver.getCurrentUrl());
+		
+		//to get the page source
+		//System.out.println(driver.getPageSource());
+		
+		//driver.navigate().to("http://yahoo.com");//this will navigate to yahoo from google
+		//driver.navigate().back();//to navigate back from any browser
+		//driver.navigate().forward();//to navigate forward
+		//driver.close();//thi will close the current browser
+		//driver.quit();// This will close all the browsers opened by selenium scripts
+		driver.get("http://facebook.com");
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+		//driver.findElement(arg0)
+
+	}
+
+}

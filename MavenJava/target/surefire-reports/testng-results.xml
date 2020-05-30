@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-18T01:09:14Z" name="Suite" finished-at="2020-05-18T01:09:14Z" duration-ms="24">
+    <groups>
+    </groups>
+    <test started-at="2020-05-18T01:09:14Z" name="Test" finished-at="2020-05-18T01:09:14Z" duration-ms="24">
+      <class name="Mavenproject.MavenJava.webTest">
+        <test-method signature="webTest1()[pri:0, instance:Mavenproject.MavenJava.webTest@7bd4937b]" started-at="2020-05-18T01:09:14Z" name="webTest1" finished-at="2020-05-18T01:09:14Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest1 -->
+        <test-method signature="webTest2()[pri:0, instance:Mavenproject.MavenJava.webTest@7bd4937b]" started-at="2020-05-18T01:09:14Z" name="webTest2" finished-at="2020-05-18T01:09:14Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest2 -->
+      </class> <!-- Mavenproject.MavenJava.webTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

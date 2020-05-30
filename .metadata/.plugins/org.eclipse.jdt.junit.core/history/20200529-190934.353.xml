@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testRunner (1)" project="e2eprogram" tests="4" started="4" failures="0" errors="2" ignored="3">
+  <testsuite name="cucumber.testRunner" time="0.0">
+    <testsuite name="Feature: Application Login" time="0.0">
+      <testsuite name="Scenario: Home Page Default Login" time="0.0" incomplete="true">
+        <error>java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)&#13;
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)&#13;
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)&#13;
+	at resources.base.initializeDriver(base.java:43)&#13;
+	at stepDefintions.stepdefinition.initialize_the_brower(stepdefinition.java:22)&#13;
+	at ✽.Given Initialize the brower(login.feature:5)&#13;
+&#13;
+</error>
+        <testcase name="Given Initialize the brower" classname="Scenario: Home Page Default Login" time="0.0">
+          <error>java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)&#13;
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)&#13;
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)&#13;
+	at resources.base.initializeDriver(base.java:43)&#13;
+	at stepDefintions.stepdefinition.initialize_the_brower(stepdefinition.java:22)&#13;
+	at ✽.Given Initialize the brower(login.feature:5)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Given Navigate to website &quot;http://qaclickacademy.com&quot; url" classname="Scenario: Home Page Default Login" time="0.0" ignored="true"/>
+        <testcase name="And click on login button to navigate to login page" classname="Scenario: Home Page Default Login" time="0.0" ignored="true"/>
+        <testcase name="Then enter &quot;userName&quot; and &quot;passWord&quot; to login Successfully" classname="Scenario: Home Page Default Login" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

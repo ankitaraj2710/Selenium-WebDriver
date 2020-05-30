@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testRunner (1)" project="e2eprogram" tests="5" started="5" failures="0" errors="2" ignored="3">
+  <testsuite name="cucumber.testRunner" time="0.001">
+    <testsuite name="Feature: Login into Application" time="0.001">
+      <testsuite name="Scenario: Positive test validating login" time="0.001" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at stepDefintions.stepdefinition.navigate_to_Site(stepdefinition.java:28)&#13;
+	at ✽.And Navigate to "http://qaclickacademy.com" Site(login.feature:5)&#13;
+&#13;
+</error>
+        <testcase name="Given Initialize the browser with chrome" classname="Scenario: Positive test validating login" time="0.001"/>
+        <testcase name="And Navigate to &quot;http://qaclickacademy.com&quot; Site" classname="Scenario: Positive test validating login" time="0.0">
+          <error>java.lang.NullPointerException&#13;
+	at stepDefintions.stepdefinition.navigate_to_Site(stepdefinition.java:28)&#13;
+	at ✽.And Navigate to "http://qaclickacademy.com" Site(login.feature:5)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="And Click on Login link in home page to land on Secure sign in Page" classname="Scenario: Positive test validating login" time="0.0" ignored="true"/>
+        <testcase name="When User enters &quot;userName&quot; and &quot;password&quot; and logs in" classname="Scenario: Positive test validating login" time="0.0" ignored="true"/>
+        <testcase name="Then Verify that user is succesfully logged in" classname="Scenario: Positive test validating login" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-22T22:33:54 EDT" name="Default suite" finished-at="2020-05-22T22:34:13 EDT" duration-ms="18854">
+    <groups>
+    </groups>
+    <test started-at="2020-05-22T22:33:54 EDT" name="Default test" finished-at="2020-05-22T22:34:13 EDT" duration-ms="18854">
+      <class name="FromScratchTesting.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FromScratchTesting.HomePage@72c8e7b]" started-at="2020-05-22T22:33:54 EDT" name="initialize" finished-at="2020-05-22T22:33:57 EDT" duration-ms="3460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:FromScratchTesting.HomePage@72c8e7b]" started-at="2020-05-22T22:33:57 EDT" name="basePageNavigation" data-provider="getData" finished-at="2020-05-22T22:34:05 EDT" duration-ms="7269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestrictuser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:FromScratchTesting.HomePage@72c8e7b]" started-at="2020-05-22T22:34:05 EDT" name="basePageNavigation" data-provider="getData" finished-at="2020-05-22T22:34:09 EDT" duration-ms="3961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FromScratchTesting.HomePage@72c8e7b]" started-at="2020-05-22T22:34:09 EDT" name="tearDown" finished-at="2020-05-22T22:34:13 EDT" duration-ms="4137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FromScratchTesting.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

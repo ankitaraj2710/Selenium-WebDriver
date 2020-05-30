@@ -1,0 +1,42 @@
+import java.io.File;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class Hub_node_concept {
+
+	
+		public static void main(String[] args) throws MalformedURLException {
+    		
+   		 
+   		 
+ 
+     
+
+DesiredCapabilities dc= new DesiredCapabilities();
+dc.setCapability(FirefoxDriver.BINARY,new File("C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe").getAbsolutePath());
+dc.setBrowserName("chrome");
+dc.setPlatform(Platform.WINDOWS);
+//dc.se
+
+//Webdriver driver=new ChromeDriver();
+WebDriver driver= new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),dc);
+driver.get("http://rediff.com");
+
+
+
+// 
+}
+
+
+  
+	     }
+
+	
+
+

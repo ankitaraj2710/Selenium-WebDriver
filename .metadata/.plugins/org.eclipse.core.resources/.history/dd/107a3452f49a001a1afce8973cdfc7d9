@@ -1,0 +1,22 @@
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class TestCases {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		ExcelData E = new ExcelData();
+		ArrayList<String> testData = E.addData("Appium");
+		System.out.println(testData.get(0));
+		System.out.println(testData.get(1));
+		System.out.println(testData.get(2));
+//		int i=0;
+//		int count = testData.get(i).length();
+//		System.out.println(count);
+//		for(i=0;i<=count;i++) {
+//		System.out.println(testData.get(i));
+//		
+	}
+
+	}
+}

@@ -1,0 +1,106 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 4.819 s <<< FAILURE! - in TestSuite
+e2eprogram.Asserts.initialize  Time elapsed: 2.218 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 81
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5V4NH1P', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x002B5F73+2449267]
+	Ordinal0 [0x001E8361+1606497]
+	Ordinal0 [0x000DF969+522601]
+	Ordinal0 [0x000705F3+67059]
+	Ordinal0 [0x0006CD92+52626]
+	Ordinal0 [0x0008C127+180519]
+	Ordinal0 [0x0008BF2D+180013]
+	Ordinal0 [0x00089E5B+171611]
+	Ordinal0 [0x00071DD8+73176]
+	Ordinal0 [0x00072E50+77392]
+	Ordinal0 [0x00072DE9+77289]
+	Ordinal0 [0x001FD8D7+1693911]
+	GetHandleVerifier [0x00354036+522726]
+	GetHandleVerifier [0x00353D74+522020]
+	GetHandleVerifier [0x00369187+609079]
+	GetHandleVerifier [0x003548A6+524886]
+	Ordinal0 [0x001F5CBC+1662140]
+	Ordinal0 [0x001FF23B+1700411]
+	Ordinal0 [0x001FF3A3+1700771]
+	Ordinal0 [0x00215215+1790485]
+	BaseThreadInitThunk [0x75B46359+25]
+	RtlGetAppContainerNamedObjectPath [0x770B7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x770B7BF4+180]
+	(No symbol) [0x00000000]
+
+	at e2eprogram.Asserts.initialize(Asserts.java:24)
+
+e2eprogram.HomePage.initialize  Time elapsed: 1.356 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 81
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5V4NH1P', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x002B5F73+2449267]
+	Ordinal0 [0x001E8361+1606497]
+	Ordinal0 [0x000DF969+522601]
+	Ordinal0 [0x000705F3+67059]
+	Ordinal0 [0x0006CD92+52626]
+	Ordinal0 [0x0008C127+180519]
+	Ordinal0 [0x0008BF2D+180013]
+	Ordinal0 [0x00089E5B+171611]
+	Ordinal0 [0x00071DD8+73176]
+	Ordinal0 [0x00072E50+77392]
+	Ordinal0 [0x00072DE9+77289]
+	Ordinal0 [0x001FD8D7+1693911]
+	GetHandleVerifier [0x00354036+522726]
+	GetHandleVerifier [0x00353D74+522020]
+	GetHandleVerifier [0x00369187+609079]
+	GetHandleVerifier [0x003548A6+524886]
+	Ordinal0 [0x001F5CBC+1662140]
+	Ordinal0 [0x001FF23B+1700411]
+	Ordinal0 [0x001FF3A3+1700771]
+	Ordinal0 [0x00215215+1790485]
+	BaseThreadInitThunk [0x75B46359+25]
+	RtlGetAppContainerNamedObjectPath [0x770B7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x770B7BF4+180]
+	(No symbol) [0x00000000]
+
+	at e2eprogram.HomePage.initialize(HomePage.java:29)
+
+e2eprogram.Validdata.initialize  Time elapsed: 1.096 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 81
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5V4NH1P', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x002B5F73+2449267]
+	Ordinal0 [0x001E8361+1606497]
+	Ordinal0 [0x000DF969+522601]
+	Ordinal0 [0x000705F3+67059]
+	Ordinal0 [0x0006CD92+52626]
+	Ordinal0 [0x0008C127+180519]
+	Ordinal0 [0x0008BF2D+180013]
+	Ordinal0 [0x00089E5B+171611]
+	Ordinal0 [0x00071DD8+73176]
+	Ordinal0 [0x00072E50+77392]
+	Ordinal0 [0x00072DE9+77289]
+	Ordinal0 [0x001FD8D7+1693911]
+	GetHandleVerifier [0x00354036+522726]
+	GetHandleVerifier [0x00353D74+522020]
+	GetHandleVerifier [0x00369187+609079]
+	GetHandleVerifier [0x003548A6+524886]
+	Ordinal0 [0x001F5CBC+1662140]
+	Ordinal0 [0x001FF23B+1700411]
+	Ordinal0 [0x001FF3A3+1700771]
+	Ordinal0 [0x00215215+1790485]
+	BaseThreadInitThunk [0x75B46359+25]
+	RtlGetAppContainerNamedObjectPath [0x770B7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x770B7BF4+180]
+	(No symbol) [0x00000000]
+
+	at e2eprogram.Validdata.initialize(Validdata.java:23)
+

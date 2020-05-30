@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testRunner (1)" project="e2eprogram" tests="4" started="4" failures="0" errors="0" ignored="2">
+  <testsuite name="cucumber.testRunner" time="5.438">
+    <testsuite name="Feature: Application Login" time="5.438">
+      <testsuite name="Scenario: Home Page Default Login" time="5.438" incomplete="true">
+        <skipped/>
+        <testcase name="Given Initialize the brower" classname="Scenario: Home Page Default Login" time="5.435"/>
+        <testcase name="Given Navigate to website &quot;http://qaclickacademy.com&quot; url" classname="Scenario: Home Page Default Login" time="0.002"/>
+        <testcase name="And click on login button to navigate to login page" classname="Scenario: Home Page Default Login" time="0.001" ignored="true"/>
+        <testcase name="Then enter &quot;userName&quot; and &quot;passWord&quot; to login Successfully" classname="Scenario: Home Page Default Login" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

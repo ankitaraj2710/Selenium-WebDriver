@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testRunner (1)" project="e2eprogram" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumber.testRunner" time="0.009">
+    <testsuite name="Feature: Application Login" time="0.009">
+      <testsuite name="Scenario: Home Page Default Login" time="0.009">
+        <testcase name="Given User is on NetBanking landing page" classname="Scenario: Home Page Default Login" time="0.004"/>
+        <testcase name="When User login into applicaton with &quot;Ankita&quot; and &quot;123&quot;" classname="Scenario: Home Page Default Login" time="0.001"/>
+        <testcase name="Then Home page is populated" classname="Scenario: Home Page Default Login" time="0.001"/>
+        <testcase name="And Cards are displayed &quot;true&quot;" classname="Scenario: Home Page Default Login" time="0.003"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

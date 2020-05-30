@@ -1,0 +1,45 @@
+package stepDefintions;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.junit.Cucumber;
+import pageObjects.LoginPage;
+import pageObjects.MainPage;
+import resources.base;
+
+import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
+
+@RunWith(Cucumber.class)
+public class stepdefinition extends base {
+
+
+@Given("^User is on NetBanking landing page$")
+public void user_is_on_NetBanking_landing_page() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    System.out.println("hello1");
+}
+
+@When("^User login into applicaton with \"([^\"]*)\" and \"([^\"]*)\"$")
+public void user_login_into_applicaton_with_and(String arg1, String arg2) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    System.out.println(arg1);
+    System.out.println(arg2);
+}
+
+@Then("^Home page is populated$")
+public void home_page_is_populated() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+  System.out.println("hello home page");
+}
+
+@Then("^Cards are displayed \"([^\"]*)\"$")
+public void cards_are_displayed(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   System.out.println(arg1);
+}
+
+}

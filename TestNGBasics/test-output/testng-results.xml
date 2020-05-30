@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="73" started-at="2020-05-16T00:15:59 EDT" finished-at="2020-05-16T00:15:59 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43" started-at="2020-05-16T00:15:59 EDT" finished-at="2020-05-16T00:15:59 EDT">
+      <class name="test.Test2">
+        <test-method status="PASS" signature="LoginAPI()[pri:0, instance:test.Test2@3e9b1010]" name="LoginAPI" duration-ms="1" started-at="2020-05-16T00:15:59 EDT" finished-at="2020-05-16T00:15:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPI -->
+        <test-method status="PASS" signature="MobileLogin()[pri:0, instance:test.Test2@3e9b1010]" name="MobileLogin" duration-ms="1" started-at="2020-05-16T00:15:59 EDT" finished-at="2020-05-16T00:15:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogin -->
+        <test-method status="PASS" signature="WebLogin()[pri:0, instance:test.Test2@3e9b1010]" name="WebLogin" duration-ms="0" started-at="2020-05-16T00:15:59 EDT" finished-at="2020-05-16T00:15:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+      </class> <!-- test.Test2 -->
+      <class name="test.Basic_test">
+        <test-method status="PASS" signature="demo()[pri:0, instance:test.Basic_test@18eed359]" name="demo" duration-ms="6" started-at="2020-05-16T00:15:59 EDT" finished-at="2020-05-16T00:15:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- test.Basic_test -->
+    </test> <!-- Test -->
+    <test name="Home" duration-ms="2" started-at="2020-05-16T00:15:59 EDT" finished-at="2020-05-16T00:15:59 EDT">
+      <class name="test.Test3">
+        <test-method status="PASS" signature="LoginAPI()[pri:0, instance:test.Test3@578486a3]" name="LoginAPI" duration-ms="1" started-at="2020-05-16T00:15:59 EDT" finished-at="2020-05-16T00:15:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPI -->
+      </class> <!-- test.Test3 -->
+    </test> <!-- Home -->
+  </suite> <!-- Suite -->
+</testng-results>

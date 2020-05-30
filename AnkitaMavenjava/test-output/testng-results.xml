@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-17T18:30:46 EDT" name="Default suite" finished-at="2020-05-17T18:30:46 EDT" duration-ms="38">
+    <groups>
+    </groups>
+    <test started-at="2020-05-17T18:30:46 EDT" name="Default test" finished-at="2020-05-17T18:30:46 EDT" duration-ms="38">
+      <class name="AnkitaMavenDemo.AnkitaMavenjava.SeleniumTest">
+        <test-method signature="webTest2()[pri:0, instance:AnkitaMavenDemo.AnkitaMavenjava.SeleniumTest@10163d6]" started-at="2020-05-17T18:30:46 EDT" name="webTest2" finished-at="2020-05-17T18:30:46 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest2 -->
+      </class> <!-- AnkitaMavenDemo.AnkitaMavenjava.SeleniumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

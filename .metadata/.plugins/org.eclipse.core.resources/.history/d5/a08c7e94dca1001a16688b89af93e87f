@@ -1,0 +1,10 @@
+Feature: Application Login
+
+
+Scenario: Positive Test validating login
+Given Initialize the browser with chrome
+And Navigate to "QAClickAcademy" Site
+And Click on Login lick in home page to land on Secure in Page
+When User enters "UserName" and "Password" and logs in
+Then Verify that user is successfully logged in
+
